@@ -10,3 +10,12 @@ pushes to the one what it popped from the first, but instead uses a `vector`
 with all the known commands and a simple index (and flag) in the vector to the
 next-to-redo command.
 
+
+# Build
+
+Build using `cmake` with the provided [`CMakeLists.txt`](CMakeLists.txt).
+
+## Dependencies
+
+- [Google Test](https://github.com/google/googletest)
+
